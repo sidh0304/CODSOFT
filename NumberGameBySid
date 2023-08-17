@@ -56,7 +56,6 @@ public class Main  {
             /* using ".equalsIgnoreCase" to compare the two strings, it'll ignore the lower case and upper case difference  */
             wannaPlayAgain = wannaPlayAgainInput.equalsIgnoreCase("yes");
         }
-        /* using .close() method to close this scanner */
         scanner.close();
         System.out.println("Thank You for Playing!");
         System.out.println("Number of rounds won: " + roundsWon);
